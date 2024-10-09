@@ -27,12 +27,11 @@ Big-O 표기법은 수학적인 정의로 다음과 같습니다.
 
 정의대로라면, $O(2n)$이나 $O(0.5n-2)$ 모두 $O(n)$으로 표현됩니다. 두 성능은 대략 4배 정도의 차이를 내지만 Big-O 표기법에선 같은 성능으로 인식되므로, 이 표기법이 실제 정확한 성능을 비교하기엔 어려운 점이 있다는 것을 알 수 있습니다. 다음은 일반적인 Big-O 표기법에 적힌 성능 비교표입니다. $n$에 대한 $N$ 값이 작을수록 좋은 성능임을 나타냅니다.
 
-<figure align="center">
+<p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Comparison_computational_complexity.svg" alt="drawing" style="width:480px;"/>
-<figcaption>
+<br>
 이미지 출처: 위키피디아(Big O Notation)
-</figcaption>
-</figure>
+</p>
 
 그래프를 참고하면 다음과 같은 비교 관계가 성립합니다.
 
